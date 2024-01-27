@@ -1,0 +1,186 @@
+
+
+
+.todo-container{
+    width: 100%;
+display: flex;
+flex-direction: column;
+/* justify-content: center;
+align-items: center; */
+margin-left: 10px;
+height: 60vh;
+
+}
+
+.todos{
+    position: relative;
+   width: 70%;
+   height: 45px;
+    display: flex;
+    
+    align-items: center;
+    border-radius: 5px;
+   margin-top: 3px;
+   margin-bottom: 7px;
+    /* margin-right: 40px; */
+    /* background-color: #000000; */
+    /* color: #ffffff; */
+    border: 1px solid black;
+}
+
+.todo-item{
+    width: 100%;
+   font-size: 20px;
+}
+.todo-content{
+    display: flex;
+   
+}
+
+.checkbox{
+    position: absolute;
+    left: 3px;
+    top: 15px;
+    padding: 9px;
+    border: 1px solid black;
+    
+}
+
+ 
+
+
+
+::marker {
+    color: white;
+}
+
+
+.todo-button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    height: 35px;
+    border-radius: 7px;
+
+}
+
+.edit{
+    height: 30px;
+    padding: 5px;
+    width: 70px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(255, 255, 0, 0.954);
+    font-size: 19px;
+    
+}
+
+.delete{
+    height: 30px;
+    padding: 5px;
+    width: 70px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.934);
+    font-size: 19px;
+ 
+}
+
+
+.Addtodo-container{
+    display: flex;
+
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+
+
+   
+    }
+    
+    .Addtodo{
+        width: 100%;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+       
+    
+    }
+    
+    input[type="text"]{
+
+        width: 20%;
+        height: 40px;
+        border-radius: 5px;
+        /* background-color: rgb(7, 7, 31); */
+        font-size: 20px;
+        /* color: #ffffff; */
+        margin-top: 25px;
+        border: 1px solid black;
+    
+    }
+    
+    .submit{
+        height: 45px;
+        border-radius: 7px;
+        width: 100px;
+        margin-left: 10px;
+        background-color:#10159e ;
+        border: none;
+        margin-top: 25px;
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .update{
+        height: 40px;
+        border-radius: 7px;
+        width: 100px;
+        margin-left: 10px;
+        background-color:#10159e ;
+        color: #ffffff;
+        font-size: 15px;
+        border: none;
+        margin-top: 25px;
+    }
+
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 30px;
+        margin-top: 60px;
+    }
+
+    .conatiner{
+
+        background-color: #ffffff;
+        position: relative;
+        top: 60px;
+        width: 70%;
+        height: max-content;
+        border-radius: 5px;
+       margin-left: 150px;
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+
+    h2{
+        margin-left: 10px;
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+   
+
+
