@@ -94,8 +94,7 @@ height: 60vh;
 .Addtodo-container{
     display: flex;
 
-    /* justify-content: center;
-    align-items: center; */
+    
     margin-top: -20px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -108,8 +107,7 @@ height: 60vh;
     .Addtodo{
         width: 100%;
         display: flex;
-        /* justify-content: center;
-        align-items: center; */
+        
        
     
     }
@@ -180,6 +178,143 @@ height: 60vh;
         font-size: 35px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+
+    @media (max-width:500px) {
+        .conatiner{
+
+            background-color: #ffffff;
+
+            position: relative;
+            top: 0px;
+            width: 100%;
+            height: max-content;
+            border-radius: 5px;
+          
+           left: -150px;
+            display: flex;
+            flex-direction: column; 
+            height: 100%;
+           
+            
+        }
+
+        input[type="text"]{
+
+            width: 65%;
+            height: 40px;
+            border-radius: 5px;
+           
+            font-size: 20px;
+          
+            margin-top: 25px;
+            border: 1px solid black;
+        
+        }
+
+
+        .todos{
+            position: relative;
+           width: 82%;
+           height: 45px;
+            display: flex;
+            
+            align-items: center;
+            border-radius: 5px;
+           margin-top: 3px;
+           margin-bottom: 7px;
+          
+            border: 1px solid black;
+        }
+        
+        .Addtodo-container{
+            display: flex;
+        
+            
+            margin-top: -20px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            
+        
+        
+           
+            }
+
+            .todo-item{
+                width: 100%;
+               font-size: 18px;
+               margin-left: -35px;
+            }
+
+            .submit{
+                height: 45px;
+                border-radius: 7px;
+                width: 90px;
+                margin-left: 5px;
+                background-color:#10159e ;
+                border: none;
+                margin-top: 25px;
+                color: #ffffff;
+                font-size: 15px;
+            }
+        
+            .update{
+                height: 40px;
+                border-radius: 7px;
+                width: 90px;
+                margin-left: 5px;
+                background-color:#10159e ;
+                color: #ffffff;
+                font-size: 15px;
+                border: none;
+                margin-top: 25px;
+            }
+
+            
+.edit{
+    height: 30px;
+    padding: 5px;
+    width: 50px;
+    margin-right: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(255, 255, 0, 0.954);
+    font-size: 19px;
+    
+}
+
+.delete{
+    height: 30px;
+    padding: 5px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.934);
+    font-size: 19px;
+ 
+}
+
+h2{
+    margin-left: 10px;
+    
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+
+
+
+    }
+
 
    
 
