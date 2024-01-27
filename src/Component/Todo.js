@@ -12,8 +12,8 @@ export default function Todo(){
 
   const todos=useSelector(state=>state.todos);
 
+  // Add Todo
     function handleClick(){
-
       if(input.length>0){
         dispatch(addTodo(input))
         setInput('')
@@ -27,13 +27,14 @@ export default function Todo(){
       
   }
 
+  // Edit Todo
   function handleEdit(todoObj){
     setEditTodoObj(todoObj);
     setInput(todoObj.text)
     setIsEdit(true)
   }
-
-  console.log(editTodoObj)
+ 
+  // Update Todo
 
   function handleUpdate(){
    dispatch(editToDo({id:editTodoObj.id,text:input}))
@@ -45,6 +46,7 @@ export default function Todo(){
 
 return(
   <div className='conatiner'>
+  {/* Input Todo  */}
    <h2>My Todo List</h2>
    <div className='Addtodo-container'>
       <input type="text"  placeholder='Enter Todos....' value={input} onChange={(e)=>setInput(e.target.value)}/>
@@ -59,7 +61,7 @@ return(
 
 
     <div className='todo-container'>
-   
+   {/* Render TodoItem */}
        {
          todos && todos.length>0?
            todos.map((todo,index)=>(
